@@ -1,0 +1,121 @@
+.settings/
+.env
+*.swo
+venv/
+venv*/
+node_modules/
+cronjobs
+mooring/cache/*
+tmp/
+geo_exports/
+disturbance/utils/csv
+!disturbance/utils/csv/CDDP_Layers_v4.xlsx
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+*.bak
+*.csv
+*.xls*
+*.tgz*
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+staticfiles/
+staticfiles*
+
+# vim
+*.swp
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+.idea/
+
+# Eclipse project files
+/.pydevproject
+/.project
+
+**/local/
+*.map
+
+# media
+media/
+spatial_data/
+private-media/
+
+# Database/fixture dumps
+*.pgdump
+*.dump
+*.db
+*.sqlite3
+
+#parkstay import ignores
+import/
+importo.py
+
+#local uwsgi.ini files
+uwsgi*.ini
+*.djcache
+
+# front-end build static files
+disturbance/static/disturbance_vue/static/*
+
+# npm locks
+#*-lock.json
+
+# apiary.txt contains private data
+# to avoid accidentally making it under the version control
+# add this file to here
+apiary.txt
+
+disturbance/frontend/disturbance/tests_output*
+disturbance/static/disturbance_vue/static/*
